@@ -53,6 +53,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EazyCamera\Code\Animation\EzAnimator.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Camera\EzCamera.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Camera\EzCameraCollider.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Camera\EzCameraController.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Camera\EzCameraSettings.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Camera\EzLockOnTarget.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Controller\EzPlayerController.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Player\Locomotion\EzMotor.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\CameraStates\EzCameraState.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\CameraStates\EzFollowState.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\CameraStates\EzLockOnState.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\CameraStates\EzOrbitState.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\CameraStates\EzStationaryState.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\EzStateMachine.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Util\ExtensionMethods.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
@@ -159,8 +174,8 @@
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
-     <None Include="Assets\Fantasy Chess RPG Character - Arthur\readme.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\EazyCamera\README.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />

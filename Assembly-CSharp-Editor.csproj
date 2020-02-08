@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EazyCamera\Code\Camera\Editor\EzCamInspector.cs" />
      <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\AntialiasingEditor.cs" />
      <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
      <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\BloomEditor.cs" />
